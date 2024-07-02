@@ -1,0 +1,38 @@
+.outer-div{
+    display : flex;
+    flex-direction: row;
+
+}
+
+.left-div{
+    width:20vw;
+    background-color: grey;
+    height:90vh;
+}
+
+.right-div{
+    width: 50vw;
+    background-color: red;
+    height:90vh;
+}
+
+.right-right-div{
+    background-color: yellow;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#user-pfp{
+    border: 2px solid black;
+    height:200px;
+    width: 200px;
+    border-radius: 100px;
+    background-size: cover;
+}
+
+#great{
+    margin-left: 100px;
+}
